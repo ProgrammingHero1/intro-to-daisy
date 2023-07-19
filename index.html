@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daisy Khala</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.2.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <h1>I explored Tailwind</h1>
+    <h3>Now i want to see my khala, none other than daisy khala</h3>
+    <button>Click me</button>
+    <button class="btn">Click me</button>
+    <button class="btn btn-primary">Click me</button>
+    <button class="btn btn-success">Success</button>
+<button class="btn btn-warning">Warning</button>
+
+<!-- accordian -->
+<section>
+    <div class="collapse collapse-plus bg-base-200">
+        <input type="radio" name="my-accordion-3" checked="checked" /> 
+        <div class="collapse-title text-xl font-medium">
+          Do you like Tailwind css?
+        </div>
+        <div class="collapse-content"> 
+          <p>yes i do.</p>
+        </div>
+      </div>
+      <div class="collapse collapse-plus bg-base-200">
+        <input type="radio" name="my-accordion-3" /> 
+        <div class="collapse-title text-xl font-medium">
+          What types of smart phone are not smart?
+        </div>
+        <div class="collapse-content"> 
+          <p>my grandma phone</p>
+        </div>
+      </div>
+      <div class="collapse collapse-plus bg-base-200">
+        <input type="radio" name="my-accordion-3" /> 
+        <div class="collapse-title text-xl font-medium">
+          Where do you live?
+        </div>
+        <div class="collapse-content"> 
+          <p>Earth. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident magnam cumque adipisci voluptatibus eum. Tempore doloremque a dolores et accusantium excepturi dolorem, id quod sequi provident commodi maxime fuga eaque.</p>
+        </div>
+      </div>
+</section>
+
+<span class="loading loading-spinner loading-lg"></span>
+<!-- My Shoes -->
+<section>
+    <div>
+        <!-- first shoe -->
+        <div class="card w-96 bg-base-100 shadow-xl">
+            <figure><img src="/images/jacket-1.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">
+                Shoes!
+                <div class="badge badge-secondary">NEW</div>
+              </h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions justify-end">
+                <div class="badge badge-outline">Fashion</div> 
+                <div class="badge badge-outline">Products</div>
+              </div>
+            </div>
+          </div>
+    </div>
+</section>
+<!-- slider or carousel -->
+<div class="carousel w-full">
+    <div id="item1" class="carousel-item w-full">
+      <img src="/images/jacket-1.png" class="w-full" />
+    </div> 
+    <div id="item2" class="carousel-item w-full">
+      <img src="/images/jacket-2.png" class="w-full" />
+    </div> 
+    <div id="item3" class="carousel-item w-full">
+      <img src="/images/jacket-3.png" class="w-full" />
+    </div> 
+    <div id="item4" class="carousel-item w-full">
+      <img src="/images/jacket-4.png" class="w-full" />
+    </div>
+  </div> 
+  <div class="flex justify-center w-full py-2 gap-2">
+    <a href="#item1" class="btn btn-xs">1</a> 
+    <a href="#item2" class="btn btn-xs">2</a> 
+    <a href="#item3" class="btn btn-xs">3</a> 
+    <a href="#item4" class="btn btn-xs">4</a>
+  </div>
+</body>
+</html>
